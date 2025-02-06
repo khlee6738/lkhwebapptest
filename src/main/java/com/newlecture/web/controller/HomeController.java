@@ -1,14 +1,13 @@
 package com.newlecture.web.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class HomeController {
-	
-	@GetMapping("/index")
-	public String adsf() {
-		return "Hello Spring Boot. 이규호 테스트111111222222222222222";
-	}
 
+	@GetMapping("/")
+	public String home() {
+		return "home";
+	}
 }
