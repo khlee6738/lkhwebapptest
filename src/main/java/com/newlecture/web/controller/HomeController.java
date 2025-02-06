@@ -8,7 +8,7 @@ public class HomeController {
 	
 	@GetMapping("/index")
 	public String adsf() {
-		return "Hello Spring Boot. 이규호 테스트111111";
+		return "Hello Spring Boot. 이규호 테스트111111222222222222222";
 	}
 
 }
